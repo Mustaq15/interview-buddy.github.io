@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f7f8fc, #dfe3ec);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #d72638;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 90%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+th {
+  background: #f7a440;
+  color: white;
+  font-weight: bold;
+}
+
+th a, td a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+th a:hover, td a:hover {
+  color: #d72638;
+  font-size: 1.1em;
+}
+
+/* Header Section */
+h2 {
+  margin: 10px 0;
+}
+
+/* Highlight Styles */
+th[style*="background-color:yellow"] {
+  background: #fff500;
+  color: #333;
+}
+
+th[style*="background-color:yellow"] a {
+  color: #000;
+}
+
+/* Search Forms */
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #f7a440;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #d72638;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #f7a440;
+  color: white;
+}
